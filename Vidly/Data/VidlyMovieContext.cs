@@ -12,9 +12,9 @@ namespace Vidly.Data
 
         public DbSet<Movie> Movie { get; set; }
 
-        // protected override void OnModelCreating(ModelBuilder modelBuilder)
+        //protected override void OnModelCreating(ModelBuilder modelBuilder)
         //{
         //  modelBuilder.Seed();
-        // }
+        //}
     }
 }

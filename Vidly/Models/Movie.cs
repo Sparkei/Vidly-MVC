@@ -26,9 +26,11 @@ namespace Vidly.Models
         [DataType(DataType.Currency)]
         [Column(TypeName = "decimal(18, 2)")]
 
-        //Rating
-        public string FilmRating { get; set; }
         //Price
         public decimal Price { get; set; }
+
+
+        //Rating
+        public string FilmRating { get; set; }
     }
 }
